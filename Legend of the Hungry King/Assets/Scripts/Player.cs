@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
         Physics2D.IgnoreLayerCollision(9, 10, true);
 
         imgHp = GameObject.Find("血條").GetComponent<Image>();
-        textHp = GameObject.Find("生命").GetComponent<Text>();
+        textHp = GameObject.Find("生命").GetComponent<Text>();        
         textHp.text = life.ToString();
         hpMax = hp;
 
@@ -124,7 +124,6 @@ public class Player : MonoBehaviour
 
     private float h;
 
-
     /// <summary>
     /// 移動
     /// </summary>
@@ -147,8 +146,7 @@ public class Player : MonoBehaviour
     /// 跳躍
     /// </summary>
     private void Jump()
-    {
-        
+    {        
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {           
             rig.AddForce(new Vector2(0, jump));

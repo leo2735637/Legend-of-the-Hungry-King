@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
         player = GameObject.Find("玩家").transform;
 
         timer = cd;                       
-        speedOriginal = speed;          
+        speedOriginal = speed;       
     }
 
     private void OnDrawGizmos()

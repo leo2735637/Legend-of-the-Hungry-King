@@ -20,7 +20,7 @@ public class Boss : Enemy
         
         if (hp <= secondHp)
         {
-            radiusAttack = 5;
+            radiusAttack = 7;
             stateBoss = StateBoss.second;
         }
     }

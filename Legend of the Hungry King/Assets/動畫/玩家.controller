@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u6B7B\u4EA1\u958B\u95DC "
+    m_ConditionEvent: "\u6B7B\u4EA1\u958B\u95DC"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9050250115270238539}
@@ -147,7 +147,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: "\u6B7B\u4EA1\u958B\u95DC "
+  - m_Name: "\u6B7B\u4EA1\u958B\u95DC"
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -263,7 +263,7 @@ AnimatorStateTransition:
     m_ConditionEvent: "\u653B\u64CA\u89F8\u767C"
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: "\u6B7B\u4EA1\u958B\u95DC "
+    m_ConditionEvent: "\u6B7B\u4EA1\u958B\u95DC"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4960391229207676286}
