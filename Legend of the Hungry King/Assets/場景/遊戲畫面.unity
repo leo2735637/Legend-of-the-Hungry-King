@@ -13014,7 +13014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  attack: 10
+  attack: 50
   cd: 3
   hp: 500
   radiusTrack: 7
